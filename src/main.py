@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from src.auth.router import auth_router
 
-app = FastAPI(title="Usaidizi-AI Backend API routes", docs_url="/")
+app = FastAPI(title="UsaidiziAI Backend API routes", docs_url="/")
 
 app.add_middleware(
         CORSMiddleware,
